@@ -3,7 +3,6 @@
 ## Here are some screenshots of the applicaton and web page.
 ![screenshot_2017-07-10-12-41-30-1](https://user-images.githubusercontent.com/24796965/28367403-743954cc-6cae-11e7-9fc1-1c0171dfb748.png)
 ![screenshot_2017-07-10-13-08-57-1](https://user-images.githubusercontent.com/24796965/28367426-82c98d40-6cae-11e7-80a5-9827bc265440.png)
-## screen
 ![screenshot_2017-07-10-13-09-05-1](https://user-images.githubusercontent.com/24796965/28367430-8b03c30e-6cae-11e7-87e9-cc85472da356.png)
 ![screenshot_2017-07-10-13-09-19-1](https://user-images.githubusercontent.com/24796965/28367445-a02d8b3e-6cae-11e7-85d6-cf8ee9057728.png)
 ![screenshot_2017-07-10-13-09-54-1](https://user-images.githubusercontent.com/24796965/28367455-aac02a8e-6cae-11e7-8ef4-d8158d4ffeb4.png)
