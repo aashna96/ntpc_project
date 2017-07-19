@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=" com.example.aashna.asd.MainActivity"
+    tools:showIn="@layout/activity_main"
+
+    android:background="#fdfbfb">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:text="New User"
+        android:id="@+id/button"
+        android:onClick="onClick"
+        android:background="#3d4875"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/button2"
+        android:textSize="50dp"
+        android:textColor="#fefefe" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:text="Admin Use"
+        android:id="@+id/button2"
+        android:onClick="onClick2"
+        android:background="#3d4875"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="50dp"
+        android:textColorHighlight="#3415df"
+        android:textColor="#fefefe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:text="Welcome to NTPC"
+        android:textSize="40dp"
+        android:textColorHighlight="#fa0101"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignParentTop="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myLayout"
+    android:stretchColumns="0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light">
+
+    <TextView android:text="Meeting Details"
+        android:layout_x="110dp"
+        android:layout_y="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="#0b0b0b" />
+    <TextView android:text="@string/PhoneNo"
+        android:layout_x="18dp"
+        android:layout_y="98dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+    <EditText android:id="@+id/editRollno"
+        android:inputType="text"
+        android:layout_x="216dp"
+        android:layout_y="33dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+    <TextView android:text="@string/Name"
+        android:layout_x="18dp"
+        android:layout_y="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+    <EditText android:id="@+id/editName"
+        android:inputType="number|text"
+        android:layout_x="219dp"
+        android:layout_y="86dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+    <TextView android:text="Person to meet"
+        android:layout_x="14dp"
+        android:layout_y="269dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+    <EditText android:id="@+id/editMarks"
+        android:inputType="text"
+        android:layout_x="219dp"
+        android:layout_y="193dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+
+
+    <TextView
+        android:text="Enter Date"
+        android:layout_x="23dp"
+        android:layout_y="333dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:text="Enter Time"
+        android:layout_x="21dp"
+        android:layout_y="387dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:inputType="text"
+        android:layout_x="212dp"
+        android:layout_y="320dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Submit"
+        android:id="@+id/button"
+        android:layout_x="-1dp"
+        android:layout_y="436dp"
+        android:textSize="22dp"
+        android:textColor="#fbf9f9"
+        android:background="#090909" />
+
+    <TextView
+        android:text="Enter Designation"
+        android:layout_x="18dp"
+        android:layout_y="203dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:inputType="text"
+        android:layout_x="218dp"
+        android:layout_y="382dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
+    <Spinner
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_x="230dp"
+        android:layout_y="253dp" />
+
+    <TextView
+        android:text="Enter Aadhar No."
+        android:layout_x="19dp"
+        android:layout_y="149dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:inputType="text"
+        android:layout_x="216dp"
+        android:layout_y="142dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
+
+</AbsoluteLayout>
+

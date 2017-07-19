@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NTPC</string>
+    <string name="title">Meeting Details</string>
+    <string name="PhoneNo">Enter PhoneNo: </string>
+    <string name="Name">Enter Name: </string>
+    <string name="ConcernedPersonName">Enter ConcernedPersonName: </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string-array name="person_names">
+        <item>-----</item>
+        <item>Shamu</item>
+        <item>Nitin</item>
+        <item>Aashu</item>
+        <item>Mohan</item>
+        <item>Jaypal</item>
+        <item>Rampal</item>
+        <item>Veerpal</item>
+    </string-array>
+    <string name="title_activity_main23">Main23Activity</string>
+    <string name="title_activity_main24">Main24Activity</string>
+</resources>
